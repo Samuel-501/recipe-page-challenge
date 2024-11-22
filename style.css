@@ -1,0 +1,103 @@
+
+/* styling body */
+body{
+    background: hsl(330, 100%, 98%);
+}
+
+/* styling section div */
+.section{
+    background-color: hsl(0, 0%, 100%);
+    margin-left: 27%;
+    margin-right: 30%;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+}
+
+/* styling image-div */
+
+img{
+    border-radius: 10px;
+}
+
+/* styling intro-div */
+.intro h1{
+     font-family: "Young Serif", serif;
+     color: hsl(14, 45%, 36%);
+}
+
+.intro p{
+    font-family: "Outfit", sans-serif;
+}
+/* styling prep-time div */
+.prep-time{
+    background: hsl(330, 100%, 98%);
+    border-radius: 10px;
+}
+.prep-time h3{
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+}
+
+.prep-time li{
+    font-family: "Outfit", sans-serif;
+}
+
+/* styling ingredients div */
+.ingredients h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+.ingredients li{
+    font-family: "Outfit", sans-serif;
+}
+
+/* styling the instructions div */
+.instructions h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+
+.instructions li{
+    font-family: "Outfit", sans-serif;
+}
+
+/* styling the nutrition div */
+.nutrition h2{
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+}
+
+.nutrition p{
+    font-family: "Outfit", sans-serif;
+}
+
+.nutrition span{
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+}
+/* styling the bottom div */
+.bottom p{
+    font-family: "Outfit", sans-serif;
+}
+.calories{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.garbs{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.protein{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.fats{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
